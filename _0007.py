@@ -40,7 +40,7 @@ def get_files(path):
         tannot += annot
         tspace += space
         print(file+"\t"+str(lines)+"\t"+str(code)+"\t"+str(annot)+"\t"+str(space))
-        print("总计"+"\t"+str(tlines)+"\t"+str(tcode)+"\t"+str(tannot)+"\t"+str(tspace))
+    print("总计"+"\t"+str(tlines)+"\t"+str(tcode)+"\t"+str(tannot)+"\t"+str(tspace))
         
 #代码入口
 if __name__ == "__main__":
